@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header start*/
+
+header {
+    min-height: 100px;
+    background-color: #121B2A;
+    overflow: hidden;
+
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+
+}
+
+.nav {
+    width: 60%;
+    float: right;
+
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 50px;
+    color: white;
+    transition: .5s;
+}
+
+.nav ul li a:hover {
+    color: #05629A;
+}
+
+.nav ul li:last-child a {
+    padding-right: 0;
+}
+
+/*header end*/
+
+/*banner start*/
+
+.banner {
+    min-height: 400px;
+    background-image: url(../img/arrangement-bloom-blossom-395132.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+
+}
+
+.banner_content {
+    width: 50%;
+    margin-top: 100px;
+    color: white;
+    background-color: rgba(99, 100, 100, 0.50);
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.banner_content h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.banner_content h1 {
+    color: #0074B7;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-left: 15px;
+}
+
+.banner_content p {
+    font-size: 22px;
+    padding: 15px;
+}
+
+.banner_content button {
+    padding: 5px 25px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-bottom: 12px;
+}
+
+/*banner end*/
+
+/*service start*/
+
+.service {
+    min-height: 300px;
+    background-color: #121B2A;
+    overflow: hidden;
+}
+
+.wrapper_two {
+    width: 85%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 115px;
+
+}
+
+.services {
+    min-height: 300px;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.service_box {
+    width: 25%;
+    min-height: 250px;
+    overflow: hidden;
+    float: left;
+    border-right: 1px solid white;
+    padding: 44px 44px;
+}
+
+.box_header {
+    min-height: 30px;
+    overflow: hidden;
+}
+
+.box_logo {
+    width: 30%;
+    min-height: 30px;
+    float: left;
+}
+
+.box_logo img {
+    width: 100%;
+}
+
+.box_text {
+    width: 60%;
+    float: left;
+    padding: 9px 12px;
+}
+
+.para_one {
+    font-size: 25px;
+    color: white;
+}
+
+.para_two {
+    font-size: 25px;
+    color: #0074B7;
+}
+
+.box_content {
+    color: white;
+    font-size: 18px;
+}
+
+.service_box:last-child {
+    border: none;
+}
+
+/*service end*/
+
+/*contact start*/
+
+.contact {
+    min-height: 250px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.wrapper_three {
+    width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.contacts {
+    min-height: 250px;
+    overflow: hidden;
+
+}
+
+.contact_box {
+    min-height: 200px;
+    width: 25%;
+    overflow: hidden;
+    float: left;
+    padding: 43px 39px;
+}
+
+.contact_box_header {
+    overflow: hidden;
+    min-height: 50px;
+}
+
+.contact_box_header_text {
+    overflow: hidden;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.contact_box_header_text_one {
+    float: left;
+    font-size: 20px;
+
+}
+
+.contact_box_header_text_two {
+    float: left;
+    font-size: 20px;
+    margin-left: 5px;
+    color: #0074B7;
+}
+
+.contact_box_content {
+    width: 90%;
+    min-height: 150px;
+    margin: 10px 10px;
+    color: white;
+}
+
+.contact_box_left {
+    min-height: 200px;
+    width: 45%;
+    float: left;
+}
+
+.contact_box_left_logo {
+    width: 95%;
+
+}
+
+.contact_box_left_logo img {
+    width: 100%;
+    margin: 2px 4px;
+}
+
+.contact_box_right {
+    min-height: 200px;
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.contact_box_right_top {
+    min-height: 60px;
+    padding: 5px 0px;
+}
+
+.para1 {
+    color: white;
+    font-size: 17px;
+}
+
+.para2 {
+    color: #0074B7;
+    font-size: 20px;
+}
+
+.contact_box_right_bottom {
+    min-height: 100px;
+}
+
+.contact_box_right_bottom button {
+    padding: 15px 23px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+/*contact end*/
+
+/*footer start*/
+
+footer {
+    min-height: 100px;
+    background-color: #121B2A;
+}
+
+.wrapper_four {
+    width: 65%;
+    min-height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 150px;
+}
+
+.footer_left {
+    width: 60%;
+    min-height: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+.footer_left_top {
+    width: 90%;
+    min-height: 40px;
+    overflow: hidden;
+}
+
+.footer_nav {
+    float: right;
+
+}
+
+.footer_nav ul {
+    float: right;
+}
+
+.footer_nav ul li {
+    float: left;
+    list-style: none;
+    border-right: 1px solid white;
+    margin-top: 5px;
+}
+
+.footer_nav ul li:last-child {
+    border: none;
+}
+
+.footer_nav ul li a {
+    text-decoration: none;
+    padding: 6px 11px;
+    display: block;
+    color: white;
+    transition: .5s;
+    font-size: 12px;
+}
+
+.footer_nav ul li a:hover {
+    color: #05629A;
+}
+
+.footer_left_bottom {
+    width: 90%;
+    min-height: 40px;
+    color: white;
+    font-size: 11px;
+}
+
+.footer_left_bottom p {
+    margin-top: 5px;
+    margin-left: 111px;
+}
+
+.footer_right {
+    width: 30%;
+    min-height: 100px;
+    float: right;
+    overflow: hidden;
+}
+
+.footer_right1 {
+    min-height: 90px;
+    width: 49%;
+    float: left;
+}
+
+.footer_right1 img {
+    width: 100%;
+    margin-top: 17px;
+}
+
+.footer_right2 {
+    min-height: 90px;
+    width: 49%;
+    float: right;
+}
+
+.footer_right2 img {
+    width: 100%;
+    margin-top: 9px;
+}
+
+/*footer end*/
